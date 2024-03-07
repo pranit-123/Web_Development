@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Layout2</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .wrapper
+        {
+            width: 80%;
+            min-height: 100px;
+            margin: 0 auto;
+            border: 1px solid #000;
+        }
+        .main-header-div
+        {
+            width: 100%;
+            height: 70px;
+            background-color: lightgreen;
+        }   
+        .main-header-div .logo-div
+        {
+            color: aliceblue;
+            padding: 10px;
+        }
+        .logo-div h1
+        {
+            color: white;
+            padding: 10px;
+        }
+        .main-header-div .main-div
+        {
+            float: right;
+            width: 48%;
+            height: 60px;
+            padding-top: 20px;
+        }
+        .main-div a
+        {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;        
+        }
+        .main-div:hover
+        {
+            background-color: crimson;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main-header-div clearfix">
+            <div class="logo-div">
+                <h1> Nature Dreams</h1>
+            </div>
+            <div class="menu-div">
+                <a href="">home</a>
+                <a href="">About</a>
+                <a href="">Sports</a>
+                <a href="">Contact</a>
+            </div>
+        </div>
+        <div class="slider">
+            <img src="Nature_image - Copy.jpg">
+        </div>
+        <div class="main-body-div clearfix">
+            <div class="sidebar">
+                <marquee direction="up" scrollamount="3" onmouseover="this.stop()" onmouseleave="this.start()">
+                <p>
+                * Lorem ipsum dolor sit amet consectetur !<img src="animated-krishna.jpg" width="28px" height="28px">
+                </p>
+                <p>
+                * Lorem ipsum dolor sit amet consectetur !<img src="animated-krishna.jpg" width="28px" height="28px">
+                </p>
+                <p>
+                   * Lorem ipsum dolor sit amet consectetur !<img src="animated-krishna.jpg" width="28px" height="28px">
+                </p>
+                <p>
+                   * Lorem ipsum dolor sit amet consectetur !<img src="animated-krishna.jpg" width="28px" height="28px">
+                </p>
+                <marquee>
+            </div>
+            <div class="contents-div clearfix"></div>
+            <div class="text">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Doloremque, ducimus necessitatibus quos placeat, itaque 
+                    nemo sint quisquam aliquam dolorum voluptas nobis libero tempore cum. 
+                    Dolor beatae, fugit rem sequi explicabo dolores ea, accusantium quaerat 
+                    deserunt atque vel officia inventore libero?
+                </p>
+            </div>
+            <div class="photo">
+                <img src="Nature_image - Copy.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Footer
+    </div>
+</body>
+</html>

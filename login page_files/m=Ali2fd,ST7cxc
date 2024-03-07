@@ -1,0 +1,12 @@
+"use strict";loaded_1_10(function(_){var window=this;
+_.m("Ali2fd");
+_.osg=function(a){_.Kq.call(this,a.Oa);this.Rg=a.service.Oe};_.D(_.osg,_.Kq);_.osg.Va=_.Kq.Va;_.osg.Ja=function(){return{service:{Oe:_.dv}}};_.Mq(_.fbb,_.osg);
+_.p();
+_.m("ST7cxc");
+var psg=function(a,b,c){c=void 0===c?0:c;var d,e,f,g,k,l,n,q,r;return _.Fh(function(v){switch(v.oa){case 1:d=null;_.Gh(v,2);switch(c){case 2:return v.Gb(4);case 1:return v.Gb(5);case 0:d=b;break;default:_.Db(c,"UrlShortener had an unknown type.")}v.Gb(6);break;case 4:return e=_.lsg(new _.ksg,b),_.Hh(v,a.Rg.fetch(_.nsg.Qc(e)),7);case 7:f=v.Aa;d=_.F(f,1);v.Gb(6);break;case 5:return g=_.ECe(new _.DCe,_.CCe(new _.BCe,_.ACe(new _.jv,b))),_.Hh(v,a.Rg.fetch(_.HCe.Qc(g)),8);case 8:k=v.Aa;d=null!=(q=null==
+(l=_.w(k,_.FCe,1))?void 0:null==(n=_.w(l,_.jv,1))?void 0:n.vd())?q:null;v.Gb(6);break;case 6:_.si(v,3);break;case 2:_.Ih(v);case 3:return v.return(null!=(r=d)?r:b)}})},qsg=function(a){_.lO.call(this,a.Oa);this.Fa=null;this.qta=0;this.Pb=a.service.share};_.D(qsg,_.lO);qsg.Ja=function(){return{service:{share:_.osg}}};_.h=qsg.prototype;_.h.xvc=function(a){_.lO.prototype.Uma.call(this,a)};
+_.h.OT=function(){var a=this,b;return _.Fh(function(c){switch(c.oa){case 1:return _.Gh(c,2),_.Hh(c,a.ugb(),4);case 4:b=c.Aa;a.Aa=b;_.si(c,3);break;case 2:_.Ih(c);case 3:return _.Hh(c,rsg(a),0)}})};_.h.getUrl=function(){return this.Fa||""};_.h.oYc=function(a){this.Fa=a.data.url;var b;this.qta=null!=(b=a.data.qta)?b:0};_.h.ugb=function(){var a=this;return _.Fh(function(b){return b.return(psg(a.Pb,a.getUrl(),a.qta))})};
+var rsg=function(a){var b;return _.Fh(function(c){if(1==c.oa)return _.Hh(c,a.oa,2);(b=c.Aa)&&b.yj({url:a.wW(),A_:a.Lr()||"",ala:a.CS()||"",LP:a.c1()||void 0});_.qi(c)})};_.U(qsg.prototype,"Dwm0hc",function(){return this.ugb});_.U(qsg.prototype,"aGeLJb",function(){return this.oYc});_.U(qsg.prototype,"tTTJvc",function(){return this.getUrl});_.U(qsg.prototype,"ZGfYgd",function(){return this.OT});_.U(qsg.prototype,"MYwIPc",function(){return this.xvc});_.xw(_.gbb,qsg);
+_.p();
+});
+// Google Inc.
