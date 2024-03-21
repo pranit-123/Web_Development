@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login App</title>
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .box
+    {
+        width: 60%;
+        min-height: 100px;
+        /* border: 10px solid black; */
+        margin: auto;
+    }
+    .formdata
+    {
+        width: 100%;
+    }
+    .label{
+        width: 100%;
+        font-family: "poppins",sans-serif;
+        font-size: 16px;
+
+    }
+    .heading
+    {
+        font-family: "poppins", sans-serif;
+        text-align: center;
+        padding: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        text-shadow: 2px 4px 2px gray;
+    }
+    .form-div
+    {
+        width: 500px;
+        min-height: 300px;
+        border: 2px solid black;
+        margin: auto;
+        padding: 20px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        /* border-left: 0;
+        border-radius: 0; */
+        border-top-width: 6px;
+        border-bottom-width: 6px;
+        border-top-color: crimson;
+        border-bottom-color: royalblue;
+        box-shadow: 10px 10px rgb(138, 137, 137);
+    }
+    input[type=text]{
+        width: 94%;
+        padding: 5px;
+        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
+        margin-left: 10px;
+        border-radius: 10px;
+        text-align: center;
+
+    }
+    input[type=password]{
+        width: 94%;
+        padding: 5px;
+        margin-left: 10px;
+        border-radius: 10px
+    }
+    input[type=submit]{
+        width: 94%;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+       
+    }
+    input[type=submit]:hover{
+        background-color: crimson;
+        color: aliceblue;
+       
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="box">
+    <div class="heading">
+        <h2> Login</h2>
+    </div>
+
+    <div class="form-div">
+        <div class="formdata">
+         <form action="#" method="post">
+        <label for="lbluser">Enter Username</label>
+        <input type="text" id="lbluser" name ="lbluser" autocomplete="off">
+        <!-- placeholder="enter Username Here"; -->
+        <label for="lblpass">Enter Password</label>
+        <input type="password" id="lblpass" name ="lblpass" autocomplete="off">
+        
+        <input type="submit" value="Login">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
